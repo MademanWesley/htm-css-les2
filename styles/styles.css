@@ -1,7 +1,10 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
-</style>
+<
+style >
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600&display=swap');
+<
+/
+style >
 * {
     box-sizing: border-box;
     margin: 0;
@@ -34,11 +37,16 @@ Table of Contents:
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-h1, h2  {
+h1, h2 {
     font-family: 'Poppins', sans-serif;
     color: #1C2B32;
+    font-size: 44px;
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #899CA0;
+}
 
 /*////////////////////////
     3. Areas
@@ -47,6 +55,19 @@ h1, h2  {
 
 /*///////////// 3.1 Header /////////////*/
 
+.container1 {
+    border: 1px solid blue;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+.container2 {
+    border: 1px solid black;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
