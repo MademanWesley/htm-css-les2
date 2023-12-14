@@ -55,17 +55,66 @@ p {
 
 /*///////////// 3.1 Header /////////////*/
 
-.container1 {
-    border: 1px solid blue;
-    max-width: 800px;
-    margin: auto;
-    padding: 50px;
+/*.container1 {*/
+/*    border: 1px solid blue;*/
+/*    max-width: 500px;*/
+/*    margin: auto;*/
+/*    padding: 200px;*/
+/*}*/
+
+/*.center-heading1 {*/
+/*    position: relative;*/
+/*    left: 200px;*/
+/*    width: 800px;*/
+/*    height: 300px;*/
+/*    padding: 50px;*/
+/*    border: 1px solid red;*/
+/*}*/
+
+.center-heading1 {
+    height: 20px;
+    margin: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.center-heading2 {
+    height: 20px;
+    margin: 100px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.subtext1 {
+    width: 300px;
+    height: 800px;
+
+    display: flex;
+    justify-content: center;
+
+    /*.subtext1text {*/
+    /*    position: relative;*/
+    /*    left: 200px;*/
+    /*    width: 800px;*/
+    /*    height: 300px;*/
+    /*    padding: 50px;*/
+    /*    border: 1px solid red;*/
 }
 
 .container2 {
-    border: 1px solid black;
+    border-style: outset;
     max-width: 800px;
     margin: auto;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.text2 {
+    position: relative;
+    max-width: 800px;
+    margin: 50px;
     padding: 50px;
 }
 
