@@ -7,16 +7,19 @@
 </head>
 <body>
 <header>
-    <section>
-        <div class="center-heading1">
+    <section class="center-heading1">
+        <div>
             <h1>Domein.shop</h1>
-        </div>
-        <br/>
-        <div class="center-heading1">
             <p class="text1">Jouw domeinnaam registreren in slechts 1 minuut!</p>
         </div>
-        <form action=""></form>
 
+        <div class="zoeken">
+            <form action="/zoek" method="get">
+                <label for="zoekbalk"></label>
+                <input type="text" id="zoekbalk" name="zoekbalk" placeholder="Is jou domein nog vrij?">
+                <input type="submit" value="Check beschikbaarheid">
+            </form>
+        </div>
     </section>
 </header>
 
@@ -27,31 +30,40 @@
         </div>
 
         <div class="container2">
-            <p>Al jaren klant bij Domein.shop. De service is goed en medewerkers zijn zeer klantvriendelijk. Snelle
-                response, zelfs op momenten dat je het niet verwacht.</p>
-            <br/>
-            <p>Jane Doe, Managing Director</p>
+            <div>
+                <img src="./assets/icons/quote-left.png" alt="">
+                <p>Al jaren klant bij Domein.shop. De service is goed en medewerkers zijn zeer klantvriendelijk. Snelle response, zelfs op momenten dat je het niet verwacht.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/avatar-jane.png" alt="">
+                <p>Jane Doe, Managing Director</p>
+            </div>
         </div>
-        <!--        <div class="center-heading2"-->
-        <!--                <p>Jane Doe, Managing Director</p>-->
-        <!--        </div>-->
-        <br/>
+
         <div class="container2">
-            <p>Ik ben tevreden over Domein.shop. Met name de snelle reactie op mijn vragen en goede service maakt dat ik
-                TransIP aan iedereen aanbeveel.</p>
-            <br />
-            <p>John Smith, Frontend Developer</p>
+            <div>
+                <img src="./assets/icons/quote-left.png" alt="">
+                <p>Ik ben tevreden over Domein.shop. Met name de snelle reactie op mijn vragen en goede service maakt dat ik TransIP aan iedereen aanbeveel.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/avatar-john.png" alt="">
+                <p>John Smith, Frontend Developer</p>
+            </div>
         </div>
 
     </section>
 
-    <section>
+    <section class="callcenter">
         <h2 class="center-heading2">Wij staan voor je klaar</h2>
 
-        <p>Je kunt 7 dagen per week bij ons terecht. Ons team van vakkundige medewerkers helpt je graag op weg.</p>
+        <img src="./assets/images/callcenter.jpg" alt="">
+        <p>Je kunt 7 dagen per week bij ons terecht. Ons <span>team</span> van vakkundige medewerkers helpt je graag op weg.</p>
 
-        <p>Neem contact op</p>
+        <button type="button">Neem contact op</button>
     </section>
+
     <section>
         <h2 class="center-heading2">Veel gestelde vragen</h2>
         <detail>
